@@ -3168,7 +3168,7 @@
 			]
 		},
 
-		// Compact controls and optional actions for 664-864 heights
+		// Adventure map buttons for large (664+) vertical resolution
 		{
 			"type" : "adventureMapContainer",
 			"name" : "buttonsContainer4",
@@ -3346,67 +3346,6 @@
 						"width" : 64,
 						"height" : 32
 					}
-				}
-			]
-		},
-		{
-			"type" : "adventureMapContainer",
-			"name" : "buttonsContainerMediumExtras",
-			"hideWhen" : "worldViewMode",
-			"area" : {
-				"top" : 456,
-				"right" : 57,
-				"width" : 64,
-				"height" : 64
-			},
-			"exists" : {
-				"heightMin" : 664,
-				"heightMax" : 864
-			},
-			"items" : [
-				{
-					"type" : "adventureMapButton",
-					"name" : "buttonWorld",
-					"image" : "buttons/iam-world.def",
-					"hotkey" : "adventureViewWorld",
-					"help" : "core.help.370",
-					"playerColored" : true,
-					"generateFromBaseImage" : "iam-world",
-					"generateSmall" : true,
-					"area" : { "top" : 0, "left" : 0, "width" : 32, "height" : 32 }
-				},
-				{
-					"type" : "adventureMapButton",
-					"name" : "buttonReplay",
-					"image" : "buttons/iam-replay.def",
-					"hotkey" : "adventureReplayTurn",
-					"help" : "core.help.372",
-					"playerColored" : true,
-					"generateFromBaseImage" : "iam-replay",
-					"generateSmall" : true,
-					"area" : { "top" : 0, "left" : 32, "width" : 32, "height" : 32 }
-				},
-				{
-					"type" : "adventureMapButton",
-					"name" : "buttonPuzzle",
-					"image" : "buttons/iam-puzzle.def",
-					"hotkey" : "adventureViewPuzzle",
-					"help" : "core.help.371",
-					"playerColored" : true,
-					"generateFromBaseImage" : "iam-puzzle",
-					"generateSmall" : true,
-					"area" : { "top" : 32, "left" : 0, "width" : 32, "height" : 32 }
-				},
-				{
-					"type" : "adventureMapButton",
-					"name" : "buttonDig",
-					"image" : "buttons/iam-dig.def",
-					"hotkey" : "adventureDigGrail",
-					"help" : "core.help.373",
-					"playerColored" : true,
-					"generateFromBaseImage" : "iam-dig",
-					"generateSmall" : true,
-					"area" : { "top" : 32, "left" : 32, "width" : 32, "height" : 32 }
 				}
 			]
 		},
